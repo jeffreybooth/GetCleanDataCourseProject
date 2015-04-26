@@ -1,0 +1,88 @@
+=======================================================================================================
+Data Set "run_analysis" produced 26_Apr-2015 using Human Activity Recognition Using Smartphones Dataset
+
+Original data set produced by:
+=======================================================================================================
+Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
+Smartlab - Non Linear Complex Systems Laboratory
+DITEN - Università degli Studi di Genova.
+Via Opera Pia 11A, I-16145, Genoa, Italy.
+activityrecognition@smartlab.ws
+
+Dataset includes the following files:
+=======================================================================================================
+Markdown.md: describes functioning of code
+run_analysis.R: original R code used to produce dataset
+Code Book.txt: info on data set, including variable definitions
+run_analysis.txt: data set
+
+Structutr of Dataset:
+=======================================================================================================
+Data set contains mean for a number of parameters calculated from the raw data collected from the 
+accelerometer in a Samsung Galaxy SII that is attached to test subjects while they complete routine
+activities.
+
+Data Variables:
+=======================================================================================================
+"Subj": ID number for each subject in the study                                
+"ActLab": label describing the activity that is being recorded                              
+
+Below are means of the feature vector for each movement pattern:. 
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+"tBodyAccMeanX"                      
+"tBodyAccMeanY"                       
+"tBodyAccMeanZ"                       
+"tGravityAccMeanX"                   
+"tGravityAccMeanY"                    
+"tGravityAccMeanZ"                    
+"tBodyAccJerkMeanX"                  
+"tBodyAccJerkMeanY"                   
+"tBodyAccJerkMeanZ"                   
+"tBodyGyroMeanX"                     
+"tBodyGyroMeanY"                      
+"tBodyGyroMeanZ"                      
+"tBodyGyroJerkMeanX"                 
+"tBodyGyroJerkMeanY"                  
+"tBodyGyroJerkMeanZ"                  
+"tBodyAccMagMean"                    
+"tGravityAccMagMean"                  
+"tBodyAccJerkMagMean"                 
+"tBodyGyroMagMean"                   
+"tBodyGyroJerkMagMean"                
+"fBodyAccMeanX"                       
+"fBodyAccMeanY"                      
+"fBodyAccMeanZ"                       
+"fBodyAccMeanFreqX"                   
+"fBodyAccMeanFreqY"                  
+"fBodyAccMeanFreqZ"                   
+"fBodyAccJerkMeanX"                   
+"fBodyAccJerkMeanY"                  
+"fBodyAccJerkMeanZ"                   
+"fBodyAccJerkMeanFreqX"               
+"fBodyAccJerkMeanFreqY"              
+"fBodyAccJerkMeanFreqZ"               
+"fBodyGyroMeanX"                      
+"fBodyGyroMeanY"                     
+"fBodyGyroMeanZ"                      
+"fBodyGyroMeanFreqX"                  
+"fBodyGyroMeanFreqY"                 
+"fBodyGyroMeanFreqZ"                  
+"fBodyAccMagMean"                     
+"fBodyAccMagMeanFreq"                
+"fBodyBodyAccJerkMagMean"             
+"fBodyBodyAccJerkMagMeanFreq"         
+"fBodyBodyGyroMagMean"               
+"fBodyBodyGyroMagMeanFreq"            
+"fBodyBodyGyroJerkMagMean"            
+"fBodyBodyGyroJerkMagMeanFreq"       
+
+Finally, below are the means of additional vectors estimating the force of gravity.
+
+"angle.tBodyAccMean.Gravity"          
+"angle.tBodyAccJerkMean.GravityMean"  
+"angle.tBodyGyroMean.GravityMean"    
+"angle.tBodyGyroJerkMean.GravityMean" 
+"angle.X.GravityMean"                 
+"angle.Y.GravityMean"                
+"angle.Z.GravityMean" 
